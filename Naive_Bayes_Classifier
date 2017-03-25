@@ -1,1 +1,36 @@
+- Naive Bayes is a classification algorithm
 
+- Some other classification techniques are 
+   -- K nearest means
+   -- Support Vector machines
+   -- Artifical neural networks
+   
+Examples:  - Email is spam or ham
+           - Identify Fraud credit card transtcions   -- to classify each transaction is a fraud or not
+           
+           
+ Steps:  With any classification problems
+ 1. You first need to identify FEATURES. Examples:  Amount Spent, IP address, Failed attempts in making transaction, location, time since last transaction etc
+    Each transaction would be represented as list of these FEATURE VECTORS
+    
+    - Each of these is a variable whose value can not be determined beforehand. However the range or set of values these variables can take is determined.
+    - These above variables are called RANDOM VARIABLES. We don't know what values these variables can take but we know a set of values from which these 
+      variables can take values.
+    
+    - Random variables are of 3 tyes --- DISCRETE -  can take only integer values - [-1, -2, 0, 2, 1]
+                                         CONTINOUS  - can take any value in the range of values. e.g..can take any value between 0-1 or 0 - infinity
+                                         CATEGORICAL - can take one of a fixed set of values. These are called categories. eg: [red, blue, yellow]. Value of 
+                                                        random variable can take any one from these values.
+                                                        
+    - PROBABILITY DISTRIBUTION -  is a table where we list the probablity of outcome of each value a random variable can take.
+    - UNIFORM PROBABLITY DISTRIBUTION -  is a probabity distribution with a constant or same values for all the variables. Example: Tossing a die
+       Will have same probablity 1/6 for each of the random variable (1 to 6)
+     
+     
+ 2. Check what distributions each of these feature or random variables follows. Because many of the machine learning techniques make an assumption
+    that random variable follows Normal Distribution. So always check for the normality if an algorithm makes such an assumption.
+    
+    
+                                                        
+    
+    
