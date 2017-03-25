@@ -30,6 +30,12 @@ Examples:  - Email is spam or ham
  2. Check what distributions each of these feature or random variables follows. Because many of the machine learning techniques make an assumption
     that random variable follows Normal Distribution. So always check for the normality if an algorithm makes such an assumption.
     
+    Example:  Suppose a measurement experiment in physics lab. Mesuring the diamter of ball bearings. You measure the diameter several time and then take
+              the average.
+              Takinga measure each time is called statistical experiment. 
+              In Most the cases, values will tend to fall to the same value i.e mean value and the values which varies from the means are called 
+              Standard Devaitions.
+    
     
                                                         
     
