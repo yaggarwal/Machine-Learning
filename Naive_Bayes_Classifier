@@ -37,6 +37,14 @@ Examples:  - Email is spam or ham
               Standard Devaitions.
     
     
-                                                        
+Bayes Theorm
+=============
+Conditional Probability: Probability of event A given that event B has already occured.
+
+P(A|B) = P(A U B) - probability both events A and B occured
+         --------
+         P(B)  - probablity that event B occured
+
+
     
     
