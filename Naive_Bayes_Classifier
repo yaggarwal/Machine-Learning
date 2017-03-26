@@ -41,10 +41,15 @@ Bayes Theorm
 =============
 Conditional Probability: Probability of event A given that event B has already occured.
 
-P(A|B) = P(A U B) - probability both events A and B occured
-         --------
-         P(B)  - probablity that event B occured
-
+P(A|B) = P(A ^ B)  = P(B/A)P(A)
+         --------    ----------
+         P(B)          P(B)
+         
+         E.g : Probablity of given email being spam given it contains word Lottery.
+         
+         P(Spam|Lottery) = P(Lottery|spam)P(spam)    = P
+                               ----------------------
+                                 P(Lottery)
 
     
     
